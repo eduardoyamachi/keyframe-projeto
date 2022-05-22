@@ -1,0 +1,37 @@
+#anima-div{
+    width: 63px;
+    height: 63px;
+    position: fixed;
+    animation: mov-div 30s infinite;
+    z-index: 1;
+}
+
+@keyframes mov-div{
+    0%{top:8px; left:71px;}
+    6%{top:8px; left:134px;}
+    12%{top:134px; left:134px;}
+    18%{top:134px; left:197px;}
+    25%{top:260px; left:197px;}
+    31%{top:260px; left:260px;}
+    37%{top:386px; left:260px;}
+    43%{top:386px; left:386px;}
+    50%{top:449px; left:386px;}
+    56%{top:386px; left:386px;}
+    62%{top:386px; left:260px;}
+    68%{top:260px; left:260px;}
+    75%{top:260px; left:197px;}
+    81%{top:134px; left:197px;}
+    87%{top:134px; left:134px;}
+    93%{top:8px; left:134px;}
+    100%{top:8px; left:71px;}
+}
+
+.tabela {
+    width: 504px;
+    height: 504px;
+    border-collapse: collapse;
+}
+
+.td{
+    border-collapse: collapse;
+}
